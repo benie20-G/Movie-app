@@ -1,0 +1,94 @@
+*{margin: 0;
+    background-size:cover;
+}
+body{
+    font-family: sans-serif;
+    background-color:black;
+}
+.movie-list{
+    background-color: rgb(208, 202, 215);
+    width: 55%;
+    position: absolute;
+    align-self: center;
+    border-radius: 0px 0px 5px 4px;
+    border: solid rgb(217, 217, 217);
+left: 23%;
+top: 75px;
+
+
+}
+.sub{
+    background-color:rgb(31, 30, 30) ;
+    text-align: center;
+    height: 27%;
+    width: 55%;
+    position: absolute;
+    bottom: 73%;
+    top: 5%;
+    left:23%;
+    color: white;
+    border: solid rgb(217, 217, 217);
+    border-radius: 4px 4px 4px 4px;
+}
+ul{
+    list-style-type: none;
+ margin-top: 14%;
+display: block;
+text-align: left;
+
+}
+.delete{
+    position: absolute;
+    margin-left: 70%;
+    right: 0px;
+    height: 24px;
+color: blanchedalmond;
+    background-color: rgb(16, 1, 22);
+    border: 3px solid rgb(16, 1, 22);
+    border-radius: 2px;
+}
+.delete:hover{
+    background-color: rgb(62, 17, 93);
+    border: 3px solid rgb(62, 17, 93);
+    border-radius: 2px;
+}
+li{
+    border-left: 5px solid grey;
+    margin: 15px 10px;
+    background-color: rgb(191, 182, 200);
+    left: 0px;
+    height: 30px;
+}
+li:hover{
+    border-left: 5px solid green;
+}
+h4{
+
+    position: absolute;
+    top: 1%;
+    left: 10px;
+    font-size: 20px;
+}
+.movie{
+    padding: 5px;
+    width: 250px;
+    border-radius: 4px;
+}
+
+#movie{
+margin-left: 30%;
+margin-bottom: 5%;
+    display: flex;
+}
+button{
+   
+background-color:rgb(42, 3, 82);
+    border: 6px solid rgb(42, 3, 82);
+    border-radius: 0px 4px 4px 0px;
+    width: 65px;
+    color: white;
+}
+button:hover{
+    background-color: rgb(2, 55, 2);
+    border: 6px solid rgb(2, 55, 2);
+}
